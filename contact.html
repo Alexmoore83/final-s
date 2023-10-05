@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexandra Moore">
+    <meta name="description" content="website Final">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<style>
+   
+  /* Style the image */
+  img {
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    width: 30rem;
+   }
+
+  /* Style the section */
+  section {
+    padding: 10px; 
+    display:grid;
+  }
+  
+</style>
+
+
+
+
+  <title>Peak Side Inn|Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Peak Side Inn | Contact</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Accommodations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main style="background-image: url('image/swiss-valley.jpg');">
+    <div class="Contact">
+    <h2>Contact Us</h2>
+
+    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+    </div>
+    <img src="images/swiss-peak.jpg" alt="Swiss Peak">
+    <section id="contact-form">
+    
+
+      <form action="#" method="POST">
+        <label for="full-name">Full Name *</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <fieldset id="preferred-contact-method">
+          <legend>Preferred Contact Method *</legend>
+
+          <!-- Email -->
+          <input type="radio" id="contact-email" name="preferred-contact-method" value="email">
+          <label for= "contact-email">Email</label>
+
+          <!-- Phone -->
+          <input type="radio" id="contact-phone" name="preferred-contact-method" value="phone">
+          <label for= "contact-phone">Phone</label>
+        </fieldset>
+
+        <label for="comments">Comments *</label>
+        <textarea id="comments" name="comments" required></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 - Peak Side Inn </p>
+    <p>This site is for educational purposes only</p>
+  </footer>
+</body>
+</html>
